@@ -21,7 +21,7 @@ Table of Contents
   * State and status
   * SLA and due dates
   * Changing ticket information
-* [Access Control](Access Control — who can see the tickets)
+* [Access Control — who can see the tickets](Access Control)
   * Organizations
   * Collaborators
   * Extended access groups
