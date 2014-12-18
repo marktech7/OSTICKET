@@ -49,7 +49,7 @@ Table of Contents
   * Vacation mode
   * Assignment and teams
   * Authentication
-* Knowledge base
+* [Knowledge base](Knowledge base)
   * FAQ categories
   * FAQ articles
   * Canned responses
