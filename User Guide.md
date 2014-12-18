@@ -7,7 +7,7 @@ Table of Contents
   * Email
   * Agents
   * API
-* Routing
+* [Ticket Routing](Ticket Routing)
   * Departments
   * Help Topics
   * Filters
