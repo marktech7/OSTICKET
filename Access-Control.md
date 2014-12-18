@@ -24,7 +24,7 @@ End Users have access to their own tickets, of course. If an Agent changes the O
 
 ## Collaborators
 
-End Users also have access to all the ticket on which they collaborate. When Agents correspond on a ticket, they can manage the End User Collaborators. Collaborators that are disabled for a ticket, but not deleted, will still have access to the ticket but will no longer receive replies and automated correspondence for the ticket.
+End Users also have access to all the tickets on which they collaborate. When Agents correspond on a ticket, they can manage the recipients. Collaborators that are disabled for a ticket, but not deleted, will still have access to the ticket but will no longer receive replies and automated correspondence for the ticket.
 
 ## Organizations
 
