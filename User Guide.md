@@ -2,7 +2,7 @@ Table of Contents
 
 * What is a help desk
 * [Who are the users](Who are the users?)
-* How are tickets created
+* [How are tickets created](How are tickets created?)
   * Web Portal
   * Email
   * Agents
