@@ -15,7 +15,7 @@ Table of Contents
 * [Automated correspondance](Automated correspondance)
   * Auto responses to end users
   * Alerts to agents
-* Ticket lifecycle
+* [Ticket Lifecycle] (Ticket Lifecycle)
   * Agent and team assignment
   * Transferring departments
   * State and status
@@ -30,7 +30,7 @@ Table of Contents
   * Ticket queues
   * Advanced search
   * Statistics
-* [Data Management] (Data Management)
+* Data Management
   * Ticket data
   * End user data
   * Organization data
