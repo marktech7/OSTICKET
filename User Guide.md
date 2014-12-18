@@ -2,7 +2,7 @@ Table of Contents
 
 * What is a help desk
 * Who are the users?
-  * End Users
+  * [End Users](End Users)
   * Organizations
   * Agents
   * Collaborators
