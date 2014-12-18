@@ -26,7 +26,7 @@ Table of Contents
   * Collaborators
   * Extended access groups
   * Limited access
-* Managing tickets
+* [Managing Tickets](Managing Tickets)
   * Ticket queues
   * Advanced search
   * Statistics
