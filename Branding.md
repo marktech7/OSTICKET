@@ -5,7 +5,7 @@ The help desk can be branded to your company by adding a company logo to the sit
 Email alerts and auto-responses are very important for communication with the agents and end users in relation to your help desk. There is a default set of Email Templates, which messages can be edited as needed. The email templates contain an HTML/Rich Text tool bar that allows photo uploads, text mark up as well as links and videos to be embedded.  Each department in the help desk can have its own set of cloned and edited email Template sets.
 
 ##Custom pages
-There are three page types that can be edited allowing you to create numerous site pages for each type for end users. 
+There are four page types that can be edited allowing you to create numerous site pages for end users. 
 
 The Landing page is the first view an end user will see when they access the Client Portal. It is where you welcome your user, as well as allow them to create a ticket and check the status of tickets.
 
