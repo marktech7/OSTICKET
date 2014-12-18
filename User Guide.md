@@ -1,11 +1,7 @@
 Table of Contents
 
 * What is a help desk
-* Who are the users?
-  * [End Users](End Users)
-  * Organizations
-  * Agents
-  * Collaborators
+* [Who are the users](Who are the users?)
 * How are tickets created
   * Web Portal
   * Email
@@ -24,6 +20,7 @@ Table of Contents
   * Transferring departments
   * State and status
   * SLA and due dates
+  * Changing ticket information
 * Access Control — who can see the tickets
   * Organizations
   * Collaborators
