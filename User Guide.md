@@ -12,7 +12,7 @@ Table of Contents
   * Help Topics
   * Filters
   * Assignment
-* Automated correspondance
+* [Automated correspondance](Automated correspondance)
   * Auto responses to end users
   * Alerts to agents
 * Ticket lifecycle
