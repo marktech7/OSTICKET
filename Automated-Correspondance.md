@@ -22,22 +22,28 @@ Alerts and Notices can be sent to Agents for events taking place in a ticket’s
 
 For all the alerts, the recipients are de-duplicated so that one Agent will not receive the same alert more than once in the event the Agent is in multiple positions selected to receive the alert. For instance, if a department manager is also a member of the department. Furthermore, the Agent triggering the event will also not receive the alert. For instance, when an Agent posts an internal note, that Agent will not be sent the Internal Note Alert.
 
-## New Ticket Alert
+## Alerts to Extended Department Members
+
+Alerts and Notices sent to department members can be extended to members granted access via the extended access group. Each department has a setting for department level "Recipients." If set to "Department and Group Members", Agents who have access to the Department via their associated Group will also receive alerts sent to the Department members.
+
+## Alerts for Ticket Activity
+
+### New Ticket Alert
 The New Ticket Alert is sent out when a new ticket is created. It can be enabled for Administrators, the Department manager and/or Department members. In the event that the ticket is automatically assigned to an Agent or a Team, the Department members will *not* be sent the New Ticket Alert.
 
-## New Message Alert
+### New Message Alert
 The New Message Alert is sent out when a new message, from the end user, is appended to an existing ticket. It can be enabled for the last respondent (the Agent who last posted a reply), the Department manager, and/or the currently Assigned Agent.
 
-## New Internal Note Alert
+### New Internal Note Alert
 The Internal Note Alert is sent out when a new internal note is posted to an existing ticket. It can be enabled for last respondent (the Agent who last posted a reply), the Department manager, and/or the assigned Agent.
 
-## Ticket Assignment Alert
+### Ticket Assignment Alert
 The Ticket Assignment Alert is sent out to Agents when tickets are assigned to them. It can be enabled for the newly assigned Agent, the leader of the newly assigned Team (Team Lead), and/or the members of the newly assigned Team.
 
-## Ticket Transfer Alert
+### Ticket Transfer Alert
 The Ticket Transfer Alert is sent out to Agents of the target Department when a ticket is transferred. It can be enabled for the currently assigned Agent and Team, the Department manager, and/or the members of the target Department. 
 
-## Overdue Ticket Alert
+### Overdue Ticket Alert
 The Overdue Ticket Alert is sent out when a ticket becomes overdue. By default, the Administrative email gets an alert. It can be enabled for the currently assigned Agent, the manager of the current department, and/or the members of the current Department. 
 
 ## System Alerts
