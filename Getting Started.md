@@ -43,7 +43,7 @@ Table of Contents
   * User directory
   * Organizations
   * Authentication
-*[Managing Agents](Managing Agents)
+* [Managing Agents](Managing Agents)
   * Agent directory
   * Administrators
   * Vacation mode
