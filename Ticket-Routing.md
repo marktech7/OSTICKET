@@ -1,5 +1,5 @@
 # Routing
-When a ticket is created, based on the administrative settings, tickets can be routed to departments and assigned to particular teams and individual agents. Every ticket is routed to a department but is allowed to remain unassigned. Unassigned tickets can be assigned to agents manually, by claiming a ticket, or by responding. Tickets can be automatically assigned based on the help topic, organization settings, and also by ticket filters.
+When a ticket is created, based on the administrative settings, tickets can be routed to departments and optionally assigned to particular teams and/or individual agents. Every ticket is routed to a department but is allowed to remain unassigned. Unassigned tickets can be assigned to agents manually, by claiming a ticket, or by responding. Tickets can be automatically assigned based on the help topic, organization settings, and also by ticket filters.
 
 ## Departments
 Departments in osTicket follow the usual organizational structure; Agents can be assigned to exactly one "primary" department, and departments can have a manager. Departments are the primary moniker for access control in osTicket. Departments help classify Agents' visibility of the tickets in your help desk. Tickets can be routed to only one department; however, tickets can be transferred between departments to change their visibility.
