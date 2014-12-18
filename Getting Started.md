@@ -39,7 +39,7 @@ Table of Contents
     * Custom lists
     * List properties
   * Attachments and files
-* Managing end users
+* [Managing End Users](Managing End Users)
   * User directory
   * Organizations
   * Authentication
