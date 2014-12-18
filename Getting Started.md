@@ -53,7 +53,7 @@ Table of Contents
   * FAQ categories
   * FAQ articles
   * Canned responses
-* Branding
+* [Branding] (Branding)
   * Logo and company data
   * Email templates
   * Custom pages
