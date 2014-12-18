@@ -30,7 +30,7 @@ Table of Contents
   * Ticket queues
   * Advanced search
   * Statistics
-* Data Management
+* [Data Management](Data Management)
   * Ticket data
   * End user data
   * Organization data
