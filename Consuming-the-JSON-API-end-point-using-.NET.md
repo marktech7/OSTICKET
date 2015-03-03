@@ -33,8 +33,8 @@ The following steps highlight the method required for encoding and sending a tic
 * Add the entry with ```attachments``` being the key and a ```Dictionary<string,string>``` array having ```atts``` as its only element as the value to the ```payload``` dictionary.
 * Now to send it, make a ```WebClient``` instance named ```client```.
 * Add the following headers to the ```client.Headers``` collection using its ```Add``` method:
-* * "X-API-Key", "YOUR API KEY HERE"
-* * "Expect", ```string.Empty```
-* * "User-Agent", "My osTicket Client"
+    * "X-API-Key", "YOUR API KEY HERE"
+    * "Expect", ```string.Empty```
+    * "User-Agent", "My osTicket Client"
 * Next, encode the ```payload``` using JSON.NET by calling ```JsonConvert.SerializeObject(payload)``` and putting the result in a new ```string`` variable named ```json```.
 * Finally send the request using ```client.Upload("http://yourdomain.tld/api/http.php/tickets.json", "POST", json)```.
