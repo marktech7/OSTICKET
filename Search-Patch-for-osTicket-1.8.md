@@ -6,7 +6,7 @@ Below is an unofficial and unsupported patch for the osTicket search function. I
   - Uses AND logic
   - Does not depend on `ost__search` table
 
-The patch uses MySQL features GROUP_CONCAT, CONCAT and LIKE. It does not yest support any additional filters.
+The patch uses MySQL features GROUP_CONCAT, CONCAT and LIKE. It does not yet support any additional filters.
 
 ### MySQL Views
 You also need to create 2 views:
