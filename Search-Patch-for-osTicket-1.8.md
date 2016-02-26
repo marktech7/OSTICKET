@@ -68,4 +68,4 @@ And place the new code:
 
 ### Screenshots
 
-![](http://postimg.org/image/gbezenevx/)
+![](http://i.imgur.com/6OJnqZo.png)
