@@ -3,7 +3,7 @@
 Below is an unofficial and unsupported patch for the osTicket search function. It replaces ALL the logic behind the search box and advanced search.
 
   - Allows for partial word search
-  - Uses OR logic
+  - Uses AND logic
   - Does not depend on `ost__search` table
 
 The patch uses MySQL features GROUP_CONCAT, CONCAT and LIKE. It does not yest support any additional filters.
