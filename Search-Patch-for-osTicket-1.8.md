@@ -66,6 +66,9 @@ And place the new code:
         $sql="SELECT * FROM `ticket_search` WHERE ".$where." ORDER BY `ticket_id` DESC";
 
 
+If you rather make a diff first, here is my entire version of osTicket-1.8/include/ajax.tickets.php
+ [https://gist.github.com/barrydegraaff/b99c3b0a244c39818fd5](https://gist.github.com/barrydegraaff/b99c3b0a244c39818fd5)
+
 ### Screenshots
 
 ![](http://i.imgur.com/6OJnqZo.png)
