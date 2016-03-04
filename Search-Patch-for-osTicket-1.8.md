@@ -24,16 +24,17 @@ You also need to create 2 views:
 
 2 Holds the Ticket details form, you may ned to change to reflect your installation.
 
-    CREATE OR REPLACE VIEW ticket_search AS 
-    SELECT ost_ticket_thread.ticket_id,
-    GROUP_CONCAT(
-      DISTINCT CONCAT(ticket_title.ticket_title,ost_ticket_thread.body) 
-      SEPARATOR ';'
-    ) ticket_content
-    FROM ost_ticket_thread, ticket_title
-    WHERE ticket_title.ticket_id = ost_ticket_thread.ticket_id
-    GROUP BY ost_ticket_thread.ticket_id;
-
+      CREATE OR REPLACE VIEW ticket_search AS 
+      SELECT ost_ticket_thread.ticket_id, ost_ticket.topic_id,ost_ticket.status_id,
+      GROUP_CONCAT(
+        DISTINCT CONCAT(ticket_title.ticket_title,ost_ticket_thread.body) 
+        SEPARATOR ';'
+      ) ticket_content
+      FROM ost_ticket_thread, ticket_title, ost_ticket
+      WHERE ticket_title.ticket_id = ost_ticket_thread.ticket_id
+      AND ost_ticket.ticket_id = ost_ticket_thread.ticket_id
+      GROUP BY ost_ticket_thread.ticket_id;
+      
 ### MySQL Config
 
 You may need to set the limit for group_concat_max_len, default is 1024.
@@ -56,14 +57,29 @@ to
    
 And place the new code:
 
-        $req = explode(" ", db_real_escape($req['query']));
+        //Barry de Graaff - Begin patch to replace search handler
+        
+        $reqwords = explode(" ", db_real_escape($req['query']));
         $where = '';
-        foreach ($req as $r)
+        foreach ($reqwords as $r)
         {
            $where .= " ticket_content LIKE '%".$r."%' AND";
         }
         $where = preg_replace("/AND$/",'',$where);        
+
+        //Help topic
+        if($req['topicId']) {
+            $where.=' AND ticket_search.topic_id='.db_input($req['topicId']);
+        }
+
+        // Status
+        if ($req['statusId']) {
+            $where .=' AND ticket_search.status_id='.db_input($req['statusId']);
+        }
+
         $sql="SELECT * FROM `ticket_search` WHERE ".$where." ORDER BY `ticket_id` DESC";
+        
+        //Barry de Graaff - End patch to replace search handler
 
 
 If you rather make a diff first, here is my entire version of osTicket-1.8/include/ajax.tickets.php
