@@ -5,8 +5,10 @@ Below is an unofficial and unsupported patch for the osTicket search function. I
   - Allows for partial word search
   - Uses AND logic
   - Does not depend on `ost__search` table
+  - Advanced search supported filters: topic, status
 
-The patch uses MySQL features GROUP_CONCAT, CONCAT and LIKE. It does not yet support any additional filters.
+
+The patch uses MySQL features GROUP_CONCAT, CONCAT and LIKE.
 
 ### MySQL Views
 You also need to create 2 views:
