@@ -1,6 +1,4 @@
-# Contributing to this project
-
-Please take a moment to review this document in order to make the contribution
+Please take a moment to review this document in order to make the issue contribution
 process easy and effective for everyone involved.
 
 Following these guidelines helps to communicate that you respect the time of
