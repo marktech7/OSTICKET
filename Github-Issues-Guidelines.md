@@ -14,6 +14,8 @@ requests](#pull-requests), but please respect the following restrictions:
 
 * Please **do not** use the issue tracker for personal support requests (use
   [OSTicket Forums](http://osticket.com/forum/categories) or [Stack Overflow](http://stackoverflow.com/questions/tagged/osticket)).
+* Please **do not** use the issue tracker for asking questions (use
+  the Forums or Freenode IRC channel #osticket).
 
 <a name="bugs"></a>
 ## Bug reports
