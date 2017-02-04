@@ -6,7 +6,7 @@ Users are identified by their unique email address.
 
 # Collaborators
 
-A Collaborator an End Users in addition to the ticket owner who is included on responses and communication in a ticket. Collaborators can be added or removed at any time in the life cycle of a ticket. Collaborators can respond in and contribute to the issue of the ticket.
+A Collaborator is an End User, in addition to the ticket owner, who is included on responses and communication in a ticket. Collaborators can be added or removed at any time in the life cycle of a ticket. Collaborators can respond in and contribute to the issue of the ticket.
 
 # Agents
 
