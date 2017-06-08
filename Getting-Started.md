@@ -15,7 +15,7 @@ Table of Contents
 * [Automated correspondance](https://github.com/osTicket/osTicket/wiki/Automated-Correspondance)
   * Auto responses to end users
   * Alerts to agents
-* [Ticket Lifecycle] (https://github.com/osTicket/osTicket/wiki/Ticket-Lifecycle)
+* [Ticket Lifecycle](https://github.com/osTicket/osTicket/wiki/Ticket-Lifecycle)
   * Agent and team assignment
   * Transferring departments
   * State and status
