@@ -8,6 +8,9 @@ OsTicket has [create ticket] API. based on @vchoi [retrieving ticket information
 
 - post a reply message to one ticket with updated status. i.e. change ticket status from open to closed.
 
+### APIs functions
+[APIs_Implementation](https://github.com/osTicket/osTicket/pull/4361/files)
+
 ### get ticket info
 get one ticket details by its ticket number.
 **URL** GET   
