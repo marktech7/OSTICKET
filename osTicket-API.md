@@ -4,7 +4,7 @@ OsTicket has [create ticket] API. based on @vchoi [retrieving ticket information
 
 - get list of tickets issued by one user.
 
-- get list of tickets assigned to an agent (staff member).
+- get list of tickets assigned to an agent (staff member ).
 
 - post a reply message to one ticket with updated status. i.e. change ticket status from open to closed.
 
