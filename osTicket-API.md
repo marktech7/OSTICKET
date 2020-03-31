@@ -9,16 +9,21 @@ OsTicket has [create ticket] API. based on @vchoi [retrieving ticket information
 - post a reply message to one ticket with updated status. i.e. change ticket status from open to closed.
 
 ### APIs functions
-[APIs_Implementation](https://github.com/osTicket/osTicket/pull/4361/files)
+
+[APIs Implementation](https://github.com/osTicket/osTicket/pull/4361/files)
 
 ### get ticket info
-get one ticket details by its ticket number.
-**URL** GET   
 
-> /api/http.php/tickets/ticketInfo?ticketNumber=849510
+get one ticket details by its ticket number.
+
+**URL** GET
+
+>   /api/http.php/tickets/ticketInfo?ticketNumber=849510
 
 **Response**
-`{
+
+```
+{
     "ticket": {
         "ticket_number": "849510",
         "subject": "issue subject",
@@ -85,63 +90,73 @@ get one ticket details by its ticket number.
     },
     "status_code": "0",
     "status_msg": "ticket details retrieved successfully"
-}`
+}
+```
 
 ### get staff tickets
+
 gets list of tickets assigned to staff member.
-**URL** GET 
+
+**URL** GET
 
 >   /api/http.php/tickets/staffTickets?staffUserName=username of staff member
 
 **Response**
-`{
+
+```
+{
     "tickets": [
         {
             "ticket_number": "326386",
             "subject": "issue 1",
             "status": "Open"
-              ...
-        }
-	,
-		{
-	   "ticket_number": "326387",
+            ...
+        },
+        {
+            "ticket_number": "326387",
             "subject": " issue 2",
             "status": "Open"
-              ...
-		}
+            ...
+        }
     ],
     "status_code": "0",
     "status_msg": "success"
-}`
+}
+```
 
 ### get client tickets
+
 gets list of tickets of one ticket issuer.
-**URL** GET 
+
+**URL** GET
 
 >   /api/http.php/tickets/clientTickets?clientUserMail=user client email 
 
 **Response**
-`{
+
+```
+{
     "tickets": [
         {
             "ticket_number": "326386",
             "subject": "issue 1",
             "status": "Open"
-              ...
-        }
-	,
-		{
-	   "ticket_number": "326387",
-            "subject": " issue 2",
+            ...
+        },
+        {
+            "ticket_number": "326387",
+            "subject": "issue 2",
             "status": "Open"
-              ...
-		}
+            ...
+        }
     ],
     "status_code": "0",
     "status_msg": "success"
-}`
+}
+```
 
 ### post reply to ticket with ticket new status
+
 This API allows staff member to post a reply to one ticket. Staff member can change ticket status or just post reply message.
 
 **URL** POST
@@ -151,26 +166,29 @@ Content-Type: application/json
 
 **Request body**
 
-` {
- "ticketNumber" : "404709", 
- "msgId" : "",
- "a" : "reply", 
- "emailreply" : "1", 
- "emailcollab" : "1",
- "cannedResp" : "0", 
- "draft_id" : "",
- "response" :  "ticket issue is resolved !",
- "signature" : "none", 
- "reply_status_id" : "1",
- "staffUserName" : "basemdeiaa",
- "ip_address" : "::1",
- "cannedattachments" : ""
- 
- }`
+```
+{
+    "ticketNumber": "404709", 
+    "msgId": "",
+    "a": "reply", 
+    "emailreply": "1", 
+    "emailcollab": "1",
+    "cannedResp": "0", 
+    "draft_id": "",
+    "response":  "ticket issue is resolved !",
+    "signature": "none", 
+    "reply_status_id": "1",
+    "staffUserName": "basemdeiaa",
+    "ip_address": "::1",
+    "cannedattachments": ""
+}
+```
 
 **Response**
-`{
+
+```
+{
     "status_code": "0",
     "status_msg": "success"
-}`
-
+}
+```
