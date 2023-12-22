@@ -13,9 +13,9 @@ The issue tracker is the preferred channel for [bug reports](#bugs) and [submitt
 requests](#pull-requests), but please respect the following restrictions:
 
 * Please **do not** use the issue tracker for personal support requests (use
-  [OSTicket Forums](http://osticket.com/forum/categories) or [Stack Overflow](http://stackoverflow.com/questions/tagged/osticket)).
+  [osTicket Forums](https://forum.osticket.com/), contact [osTicket Support](https://osticket.com/contact-us), or [Stack Overflow](https://stackoverflow.com/questions/tagged/osticket)).
 * Please **do not** use the issue tracker for asking questions, specially developer questions (use
-  the Forums or Freenode IRC channel #osticket).
+  the [osTicket Forums](https://forum.osticket.com/) or contact [osTicket Support](https://osticket.com/contact-us)).
 
 <a name="bugs"></a>
 ## Bug reports
